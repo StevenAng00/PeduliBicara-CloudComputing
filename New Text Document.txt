@@ -1,0 +1,26 @@
+pip install --upgrade prompt-toolkit
+
+apt-get install sox ffmpeg libcairo2 libcairo2-dev
+apt-get install texlive-full
+pip3 install manimlib  # or pip install manimlib
+Then:
+
+pip3 install manimce  # or pip install manimce
+
+pip install --upgrade ipykernel
+
+pip install --upgrade ipython
+
+pip install pandas
+
+
+
+////
+~/.local/bin/gunicorn -b :8080 main:app
+
+
+////
+pip install flask
+pip install flask_mysqldb
+pip install bcrypt
+pip install re
